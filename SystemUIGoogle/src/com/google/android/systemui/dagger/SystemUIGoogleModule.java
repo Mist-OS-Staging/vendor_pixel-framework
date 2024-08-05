@@ -44,7 +44,7 @@ import com.android.systemui.dock.DockManager;
 import com.android.systemui.dock.DockManagerImpl;
 import com.android.systemui.doze.DozeHost;
 import com.android.systemui.dump.DumpManager;
-import com.android.systemui.everest.EverestOSModule;
+import com.android.systemui.mist.MistOSModule;
 import com.android.systemui.media.dagger.MediaModule;
 import com.android.systemui.media.muteawait.MediaMuteAwaitConnectionCli;
 import com.android.systemui.media.nearby.NearbyMediaDevicesManager;
@@ -186,7 +186,7 @@ import dagger.Lazy;
         ElmyraModule.class,
         ColumbusModule.class,
         SystemUIGooglePolicyModule.class,
-        EverestOSModule.class
+        MistOSModule.class
 })
 
 public abstract class SystemUIGoogleModule {
