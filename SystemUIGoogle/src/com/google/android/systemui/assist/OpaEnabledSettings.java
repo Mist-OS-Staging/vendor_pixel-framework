@@ -16,7 +16,7 @@
 
 package com.google.android.systemui.assist;
 
-import static com.android.internal.util.everest.DeviceKeysConstants.*;
+import static com.android.internal.util.mist.DeviceKeysConstants.*;
 
 import android.content.ContentResolver;
 import android.content.Context;
